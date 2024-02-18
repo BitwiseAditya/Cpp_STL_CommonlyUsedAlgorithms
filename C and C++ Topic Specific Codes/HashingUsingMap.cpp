@@ -16,9 +16,9 @@ int main(){
     }
 
     //iterating the map
-   /* for(auto it : hash){
+    for(auto it : hash){
         cout<<it.first<<"->"<<it.second<<endl;
-    } */
+    } 
     
 
     int q;
