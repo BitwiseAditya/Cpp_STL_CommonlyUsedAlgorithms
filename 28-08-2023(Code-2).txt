@@ -1,0 +1,357 @@
+			Code Snippets-2
+
+	 Determine the output of the following code snipppets. Assume that the inclusion of the 
+	 required header files has been made and there is no prototyping error due to them.
+	
+	1. main()
+	   {
+		int a;
+		a=2*3+4%5-3/2+6;
+		printf("%d",a);
+	   }
+
+	2. main()
+	   {
+		printf("%d%d%d%d",6/5,-6/5,6/-5,-6/-5);
+	   }
+
+	3. main()
+	   {
+		printf("%d%d%d%d",6%5,-6%5,6%-5,-6%-5);
+	   }
+
+	4. main()
+	   {
+		
+		inta=12,b;
+		printf("%d%d",b,b=a);
+	   }
+	
+	5. main()
+	   {
+		int a=23,b=12,c=10,d;
+		d=c=b=a;
+		printf("%d%d%d%d",a,b,c,d);
+	   }
+
+	6. main()
+	   {
+		int a=23,b=12,c=10,d;
+		d=c+2=b+1=a;
+		printf("%d%d%d%d",a,b,c,d);
+	   }
+
+	7. main()
+	   {
+		int a=2,b=3,c=1,d;
+		d=a<b>c;
+		printf("%d",d);
+	   }
+
+	8. main()
+	   {
+		int a=2,b=3,c=1,d;
+		d=a<b<c-1;
+		printf("%d",d);
+	   }
+
+	9. main()
+	   {
+		int a=10,b=20,c=30;
+		c==a=b;
+		printf("%d%d%d",a,b,c);
+	   }
+	10. main()
+	   {
+		int a=10,b=20,c=30;
+		c=a==b;
+		printf("%d%d%d",a,b,c);
+	   }
+
+	11. main()
+	    {
+		int a=10,b=20,c=30;
+		c==a==b;
+		printf("%d%d%d",a,b,c);
+	   }
+
+	12. main()
+	    {
+		int a=012,b=034;
+		int x=0x12,y=0x34;
+		int c,d,u,v;
+		c=a&b;
+		d=a|b;
+		u=x&y;
+		v=x|y;
+		printf("%d%d%d%d",c,d,u,v);
+	    }
+
+	13. main()
+	    {
+		int a=012,b=034;
+		int x=0x12,y=0x34;
+		int c,d,u,v;
+		c=a&&b;
+		d=a||b;
+		u=x&&y;
+		v=x||Y
+		printf(%d%d%d%d",c,d,u,v);
+	    } 
+
+	14. main()
+	    {
+		int c=10,d,e;
+		d=!c;
+		e=~c;
+		printf("%d%d",d,e);
+	    }
+
+	15. main()
+	    {
+		int c=-4,d=4;
+		printf("%d%d%d%d",~c,~d,c^d,~c^~d);
+	    }
+
+	16. main()
+	    {
+		int i=10;
+		printf("%d",i++*i++);
+	    }
+
+	17. main()
+	    {
+		int i=10,j;
+		j=++i++;
+		printf("%d%d",i,j);
+	    }
+
+	18. main()
+	    {
+		int i=10,j=11,k,l;
+		k=i+++j;
+		l=i+++++j;
+		printf("%d%d",l,k);
+	    }
+
+	19. main()
+	    {
+		int i=10,j=11,k,l;
+		k=i+++j;
+		l=i+++ ++j;
+		printf("%d%d",l,k);
+	    }
+
+	20. main()
+	    {
+		int i=10,j=11,k,l;
+		k=i+++j;
+		l=i++ +++j;
+		printf("%d%d",l,k);
+	    }
+
+	21. main()
+	    {
+		int x=20,y=35;
+		x=y++ + x++;
+		y=++y + ++x;
+		printf("%d%d",x,y);
+	    }
+
+	22. main()
+	    {
+		int i=100,j=20;
+		i++=j;
+		printf("%d%d",i,j);
+	    }
+
+	23. main()
+	    {
+		int a=10,b;
+		a>5?b=100:b=200;
+		printf("%d",b);
+	    }
+
+	24. main()
+	    {
+		int i=0,j=1,k=2,l;
+		l=i||j++&&++K;
+		printf("%d%d%d%d",i,j,k,l);
+	    }
+
+	25. main()
+	    {
+		int i=0,j=1,k=2,l;
+		l=i&&j++&&++K;
+		printf("%d%d%d%d",i,j,k,l);
+	    }
+
+	26. main()
+	    {
+		int i=0,j=1,k=2,l;
+		l=++i&&j++&&++K;
+		printf("%d%d%d%d",i,j,k,l);
+	    }
+
+	27. main()
+	    {
+		int i=0,j=1,k=2,l;
+		l=++i||j++&&++K;
+		printf("%d%d%d%d",i,j,k,l);
+	    }
+
+	28. main()
+	    {
+		int i=0,j=1,k=2,l;
+		l=++i&&j++||++K;
+		printf("%d%d%d%d",i,j,k,l);
+	    }
+
+	29. main()
+	    {
+		int i=0,j=1,k=2,l;
+		l=++i&&--j||++K;
+		printf("%d%d%d%d",i,j,k,l);
+	    }
+
+	30. main()
+	    {
+		int i=0,j=1,k=2,l;
+		l=++i&&j--||++K;
+		printf("%d%d%d%d",i,j,k,l);
+	    }
+
+	31. main()
+	    {
+		int x=4;
+		printf("%d%d%d",x,x<<2,x>>2);
+	    }
+
+	32. main()
+	    {
+		int x=32767;
+		printf("%d",x<<1);
+	    }
+
+	33. main()
+	    {
+		int num=3;
+		printf("%d",num<<2<<2);
+	    }
+
+	34. main()
+	    {
+		int num=3;
+		printf("%d",num<<(2<<2));
+	    }
+
+	35. main()
+	    {
+		int num=5,i=1;
+		printf("%d",(num<<i&1<<15)?1:0);
+	    }
+
+	36. main()
+	    {
+		int num=5,i=1;
+		printf("%d",(num<<i&&1<<15)?1:0);
+	    }
+
+	37. main()
+	    {
+		float a=0.9;
+		int c;
+		c=a<0.9;
+		printf("%d",c);
+	    }
+
+	38. main()
+	    {
+		float a=0.5;
+		int c;
+		c=a<0.5;
+		printf("%d",c);
+	    }
+
+	39. main()
+	    {
+		float a=0.9;
+		int c;
+		c=a<0.9f;
+		printf("%d",c);
+	    }
+
+	40. main()
+	    {
+		int a=0,b=0;
+		++a==0||++b==||;
+		printf("%d%d",a,b);
+	    }
+
+	41. main()
+	    {
+		 int x=4+2%-8;
+		printf("%d",x);
+	    }
+
+	42. main()
+	    {
+		int i=5;
+		i=!i>3;
+		printf("%d",i);
+	    }
+
+	43. main()
+	    {
+		int a=10,b=70,c;
+		c=b=a*=2;
+		printf("%d%d%d",a,b,c);
+	    }
+
+	44. main()
+	    {
+		printf("%x", -1<<4);
+	    }
+
+	45. main()
+	    {
+		int c=- -2;
+		printf("%d",c);
+	    }
+
+	46. main()
+	    {
+		int c=--2;
+		printf("%d",c);
+	    }
+
+	47. main()
+	    {
+		int i=5;
+		printf("%d%d%d%d%d",i++,i--,++i,--i,i);
+	    }
+
+	48. main()
+	    {
+		200;
+		printf("%d",200);
+	    }
+
+	49. main()
+	    {
+		int i=-1;
+		+i;
+		printf("%d%d",i,+i);
+	    }
+
+	50. main()
+	    (
+		char not;
+		not=!2;
+		printf("%d",not);
+	    }
+
+	
+
+	
+	
